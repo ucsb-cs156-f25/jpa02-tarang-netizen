@@ -45,6 +45,10 @@ public class DeveloperTest {
          assertTrue(t.getMembers().contains("Joshua C."),"Team should contain Joshua C.");
          assertTrue(t.getMembers().contains("Terry Z."),"Team should contain Terry Z.");
     }
+    @Test
+    public void getGithubId_returns_correct_id() {
+    assertEquals("tarang-netizen", Developer.getGithubId());
+}
 
 
 
