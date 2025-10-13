@@ -69,6 +69,21 @@ public void equals_returns_false_for_different_name_same_members() {
 
     assertFalse(t1.equals(t2)); // Case 3c
 }
+@Test
+public void hashCode_equal_teams_have_same_hashCode() {
+    Team t1 = new Team("test-team");
+    t1.addMember("Alice");
+    t1.addMember("Bob");
+
+    Team t2 = new Team("test-team");
+    t2.addMember("Alice");
+    t2.addMember("Bob");
+
+    // Since t1.equals(t2) should be true,
+    // their hashCodes must also match
+    assertEquals(t1.hashCode(), t2.hashCode());
+}
+
 
    
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
