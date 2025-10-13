@@ -89,9 +89,11 @@ public class Team {
     /**
      * Get a hash code for the team
      */
-    @Override
+   @Override
     public int hashCode() {
-        return this.name.hashCode() | this.members.hashCode();
+    return java.util.Objects.hash(name, members);
+}
+
     }
    
 }
