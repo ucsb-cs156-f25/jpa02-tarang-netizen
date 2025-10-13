@@ -83,6 +83,32 @@ public void hashCode_equal_teams_have_same_hashCode() {
     // their hashCodes must also match
     assertEquals(t1.hashCode(), t2.hashCode());
 }
+@Test
+public void test_hashCode_sameContent_sameHash() {
+    Team t1 = new Team();
+    t1.setName("TeamX");
+    t1.addMember("Alice");
+
+    Team t2 = new Team();
+    t2.setName("TeamX");
+    t2.addMember("Alice");
+
+    assertEquals(t1.hashCode(), t2.hashCode(), "Equal teams must have same hashCode");
+}
+
+@Test
+public void test_hashCode_differentContent_differentHash() {
+    Team t1 = new Team();
+    t1.setName("TeamX");
+    t1.addMember("Alice");
+
+    Team t2 = new Team();
+    t2.setName("TeamY");
+    t2.addMember("Bob");
+
+    assertNotEquals(t1.hashCode(), t2.hashCode(), "Different teams should have different hashCode");
+}
+
 
 
    
