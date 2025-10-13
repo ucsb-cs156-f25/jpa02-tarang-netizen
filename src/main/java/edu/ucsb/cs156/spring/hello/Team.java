@@ -9,14 +9,6 @@ public class Team {
     public String name;
     public ArrayList<String> members;
 
-// step 3.4
-   Team t1 = new Team();
-   t1.setName("foo");
-   t1.addMember("bar");
-   Team t2 = new Team();
-   t2.setName("foo");
-   t2.addMember("bar");
-   assertEquals(t1.hashCode(), t2.hashCode());
 
     /**
      * Default constructor for a team.
