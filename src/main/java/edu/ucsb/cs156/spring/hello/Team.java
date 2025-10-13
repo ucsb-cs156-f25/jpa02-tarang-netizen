@@ -94,6 +94,5 @@ public class Team {
     return java.util.Objects.hash(name, members);
 }
 
-    }
    
 }
