@@ -22,6 +22,10 @@ public class TeamTest {
     public void toString_returns_correct_string() {
         assertEquals("Team(name=test-team, members=[])", team.toString());
     }
+    // instantiate t as a Team object
+    int result = t.hashCode();
+    int expectedResult = 0;
+    assertEquals(expectedResult, result);
 
    
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
