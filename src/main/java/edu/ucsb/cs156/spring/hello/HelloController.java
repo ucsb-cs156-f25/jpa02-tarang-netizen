@@ -49,16 +49,9 @@ public class HelloController {
      * @return Team object in JSON format
      */
 
-    @GetMapping("/team")
+   @GetMapping("/team")
     public Team team() {
-    Team team = new Team(); 
-    team.addMember("JOSHUA");
-    team.addMember("DYLAN");
-    team.addMember("TARANG");
-    team.addMember("ADAM YITAO");
-    team.addMember("CHENCHANG");
-    team.addMember("TERRY");
-    return Developer.getTeam();
+        return Developer.getTeam();
     }
 
 
