@@ -18,7 +18,7 @@ public class Developer {
     public static String getName() {
         // had already changed name to mine. changed it back so tests pass
         
-        return "Tarang S.";
+        return "TARANG";
     }
 
     /**
