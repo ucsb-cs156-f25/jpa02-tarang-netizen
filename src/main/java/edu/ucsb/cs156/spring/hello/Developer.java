@@ -40,7 +40,7 @@ public class Developer {
 
         Team team = new Team("f25-03");
         team.addMember("Tarang S.");
-        team.addMember("Adam W.");
+        team.addMember("Adam Yitao W.");
         team.addMember("Chenchang W.");
         team.addMember("Dylan C.");
         team.addMember("Joshua C.");
