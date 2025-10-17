@@ -45,6 +45,7 @@ public class Developer {
         team.addMember("DYLAN");
         team.addMember("JOSHUA");
         team.addMember("TERRY");
+        System.out.println("Team members: " + team); // 👈 this line prints the list (delete later)
         return team;
     }
 }
