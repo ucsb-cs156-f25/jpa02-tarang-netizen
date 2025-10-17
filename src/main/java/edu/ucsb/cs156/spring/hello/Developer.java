@@ -18,7 +18,7 @@ public class Developer {
     public static String getName() {
         // had already changed name to mine. changed it back so tests pass
         
-        return "Tarang S.";
+        return "TARANG";
     }
 
     /**
@@ -39,12 +39,12 @@ public class Developer {
     public static Team getTeam() {
 
         Team team = new Team("f25-03");
-        team.addMember("Tarang S.");
-        team.addMember("Adam Yitao W.");
-        team.addMember("Chenchang W.");
-        team.addMember("Dylan C.");
-        team.addMember("Joshua C.");
-        team.addMember("Terry Z.");
+        team.addMember("TARANG");
+        team.addMember("ADAM YITAO");
+        team.addMember("CHENCHANG");
+        team.addMember("DYLAN");
+        team.addMember("JOSHUA");
+        team.addMember("TERRY");
         return team;
     }
 }
