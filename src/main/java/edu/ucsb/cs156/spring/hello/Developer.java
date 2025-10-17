@@ -40,11 +40,11 @@ public class Developer {
 
         Team team = new Team("f25-03");
         team.addMember("Tarang S.");
-        team.addMember("ADAM YITYAO");
-        team.addMember("CHENCHANG");
-        team.addMember("DYLAN");
-        team.addMember("JOSHUA");
-        team.addMember("TERRY");
+        team.addMember("Adam W.");
+        team.addMember("Chenchang W.");
+        team.addMember("Dylan C.");
+        team.addMember("Joshua C.");
+        team.addMember("Terry Z.");
         return team;
     }
 }
