@@ -39,11 +39,11 @@ public class Developer {
     public static Team getTeam() {
 
         Team team = new Team("f25-03");
+        team.addMember("JOSHUA");
+        team.addMember("DYLAN");
         team.addMember("TARANG");
         team.addMember("ADAM YITAO");
         team.addMember("CHENCHANG");
-        team.addMember("DYLAN");
-        team.addMember("JOSHUA");
         team.addMember("TERRY");
         System.out.println("Team members: " + team); // 👈 this line prints the list (delete later)
         return team;
